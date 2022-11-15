@@ -1,3 +1,2 @@
-export const hashtags = (text) => {
-  return text
-}
+export const hashtags = (text) =>
+  text.split(' ').filter((word) => word[0] === '#');
